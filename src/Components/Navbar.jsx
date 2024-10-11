@@ -15,7 +15,7 @@ import LogoutLogo from "../assets/Img/LogoutLogo.svg"
 import { NavLink,  } from "react-router-dom";
 const Navbar = () => {
   return (
-    <div className="w-[340px] h-[100vh] overflow-y-scroll  bg-[#fff9f9] rounded-[20px] shadow-[4px_4px_10px_#00000040]">
+    <div className="w-[340px] h-[911px] overflow-y-scroll  bg-[#fff9f9] rounded-[20px] shadow-[4px_4px_10px_#00000040]">
       <div className="flex justify-around items-center pt-[30px] w-full ">
         <img src={Logo} alt="" />
         <div className="w-[170px] h-[54px]">
