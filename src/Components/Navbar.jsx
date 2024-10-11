@@ -89,7 +89,7 @@ const Navbar = () => {
             Help
           </p>
         </NavLink>
-        <NavLink to="/Setting" className={({ isActive }) => `flex w-full h-[82px] items-center ${isActive ? 'bg-[linear-gradient(203.14deg,_#ADBBDE_14.97%,_rgba(182,_188,_202,_0)_129.11%)]' : ''}`}>
+        <NavLink to="/My-Profile" className={({ isActive }) => `flex w-full h-[82px] items-center ${isActive ? 'bg-[linear-gradient(203.14deg,_#ADBBDE_14.97%,_rgba(182,_188,_202,_0)_129.11%)]' : ''}`}>
           <img className="pl-[40px]" src={SettingsLogo} alt="" />
           <p className="pl-[35px]  [font-family:'Istok_Web-Bold',Helvetica] font-bold text-[#2B59CE] text-base tracking-[0] leading-[normal] ">
             Setting
