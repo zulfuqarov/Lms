@@ -6,6 +6,7 @@ import Navbar from "./Components/Navbar";
 import NavbarHeader from "./Components/NavbarHeader";
 import Liblry from "./Pages/Liblry";
 import MyProfile from "./Pages/MyProfile";
+import Calendar from "./Pages/Calendar";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
               <Route path="/Classroom" element={<Classroom />} />
               <Route path="/Library" element={<Liblry />} />
               <Route path="/My-Profile" element={<MyProfile />} />
+              <Route path="/Calender" element={<Calendar />} />
             </Routes>
           </div>
         </div>
